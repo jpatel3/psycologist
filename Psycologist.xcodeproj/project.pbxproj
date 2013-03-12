@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5E27A2116EEEB1800193D37 /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E27A2016EEEB1800193D37 /* RotatableViewController.m */; };
 		B5E9691516E9A23F00D5D5FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E9691416E9A23F00D5D5FA /* UIKit.framework */; };
 		B5E9691716E9A23F00D5D5FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E9691616E9A23F00D5D5FA /* Foundation.framework */; };
 		B5E9691916E9A23F00D5D5FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E9691816E9A23F00D5D5FA /* CoreGraphics.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5E27A1F16EEEB1800193D37 /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableViewController.h; sourceTree = "<group>"; };
+		B5E27A2016EEEB1800193D37 /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableViewController.m; sourceTree = "<group>"; };
 		B5E9691016E9A23E00D5D5FA /* Psycologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psycologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E9691416E9A23F00D5D5FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5E9691616E9A23F00D5D5FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,8 @@
 		B5E9691A16E9A23F00D5D5FA /* Psycologist */ = {
 			isa = PBXGroup;
 			children = (
+				B5E27A1F16EEEB1800193D37 /* RotatableViewController.h */,
+				B5E27A2016EEEB1800193D37 /* RotatableViewController.m */,
 				B5E9692316E9A23F00D5D5FA /* PsycologistAppDelegate.h */,
 				B5E9692416E9A23F00D5D5FA /* PsycologistAppDelegate.m */,
 				B5E9693516E9A50700D5D5FA /* FaceView.h */,
@@ -175,6 +180,7 @@
 				B5E9692B16E9A23F00D5D5FA /* PsycologistViewController.m in Sources */,
 				B5E9693916E9A50700D5D5FA /* FaceView.m in Sources */,
 				B5E9693A16E9A50700D5D5FA /* HappinessViewController.m in Sources */,
+				B5E27A2116EEEB1800193D37 /* RotatableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
